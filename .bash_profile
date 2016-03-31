@@ -13,8 +13,9 @@ unset file;
 shopt -s cdspell;
 
 # Add tab completion for many Bash commands
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
+
+if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
+  . $(brew --prefix)/share/bash-completion/bash_completion
 fi
 
 # Enable tab completion for `g` by marking it as an alias for `git`
