@@ -15,6 +15,8 @@ brew update
 brew upgrade --all
 
 brew install bash-completion2
+brew install git
+brew install mongodb
 
 # Remove outdated versions from the cellar.
 brew cleanup
